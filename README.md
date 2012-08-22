@@ -15,5 +15,5 @@ The purpose of this repository is to get a feel for how you would execute a basi
 1. Fork this repository
 2. Create a directory named ``public`` with 3 subdirectories for your CSS, JavaScript and images.
 3. Create an HTML document and name it ``index.html`` at the root of the ``public`` directory. You can name your CSS, Less and JavaScript files whatever you want as long as they are located in the directories you created in step 2.
-4. Create a 1 page web site base on ``mockup.png`` with interactions.
+4. Create a 1 page web site base on the design in the ``mockup.png`` file. The annotations outline the colors and user interactions.
 5. When you've completed the task send a pull request.
