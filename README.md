@@ -6,7 +6,7 @@ The purpose of this repository is to get a feel for how you would execute a basi
 ## Requirements
 
 - HTML5
-- All CSS should be built using Less CSS
+- All CSS should be built using [Less CSS](http://lesscss.org/)
 - Use [Twitter Bootstrap](http://twitter.github.com/bootstrap/) elements as much as possible.
 - Use [jQuery](http://www.jquery.com) 1.7.2+ for any custom JavaScript
 
