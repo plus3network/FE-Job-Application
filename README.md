@@ -9,7 +9,7 @@ Thank you for your intrest in working with Plus 3 Network. Before we get started
 - All CSS should be built using the [Less CSS](http://lesscss.org/) language
 - Use [Twitter Bootstrap](http://twitter.github.com/bootstrap/) elements as much as possible
 - Use [jQuery](http://www.jquery.com) 1.7.2+ for any custom JavaScript
-- Bonus Tip: Use Backbone.js
+- Bonus Points: Use Backbone.js
 
 ## Instructions
 
