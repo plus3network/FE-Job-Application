@@ -1,7 +1,7 @@
 Front End Engineer Job Application
 ==================
 
-The purpose of this repository is to get a feel for how you would execute a basic task of creating HTML, CSS, and JavaScript from a mockup with annotations. The test is to take an annotated mockup and create a 1 page web site using the [Twitter Bootstrap framework](http://twitter.github.com/bootstrap/) with JavaScript interactions. 
+The purpose of this repository is to get a feel for how you would execute a basic task of creating HTML, CSS, and JavaScript from a mockup with annotations. The test is to take an annotated mockup and create a 1 page web site using the [Twitter Bootstrap framework](http://twitter.github.com/bootstrap/). 
 
 ## Requirements
 
