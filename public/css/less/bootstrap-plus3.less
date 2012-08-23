@@ -1,0 +1,289 @@
+// Initialize Bootstrap
+@import "bootstrap.less";
+
+
+// Custom styles:
+// -------------------------
+
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+			
+a {
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 1.7em;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+
+// Nav bar
+// -------------------------
+
+.navbar-inner {
+  padding: 0px;
+}
+
+.navbar .nav > li > a {
+	padding: 10px 5px 10px 20px;
+}
+
+.navbar .nav.pull-right > li > a {
+	padding: 10px 20px 10px 20px;
+}
+
+.navbar .nav.pull-right {
+    margin-right: 0px;
+}
+
+.navbar .nav.pull-right li.dropdown.open > .dropdown-toggle {
+	.border-radius(0px 4px 4px 0px);
+}
+
+.navbar .divider-vertical {
+  margin: 0px;
+  border-left: 1px solid @white;
+  border-right: 1px solid @white;
+}
+
+.dropdown-menu a {
+	text-decoration: none;
+}
+
+
+// Set up left sidebar and fluid content area
+// -------------------------
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@leftSideBarWidth:	130px;
+
+.row-fluid > .left-sidebar {
+    position: relative;
+    top: 0;
+    left: auto;
+    width: @leftSideBarWidth;
+	float: left;
+}
+
+.right-fluid-content {
+    margin-left: @leftSideBarWidth+@gridGutterWidth;
+}
+
+
+// Left Sidebar
+// -------------------------
+
+.left-raised, .left-friends {
+	margin-top: 15px;
+	padding-top: 2px;
+	border-top: 1px solid @grayLighter;
+}
+
+.left-raised > p {
+    background-color: @plus3GreenLight;
+    color: @plus3GreenDark;
+    font-size: 0.9em;
+    padding: 0.4em;
+	.border-radius(5px);
+	text-align: center;
+}
+
+.left-raised > p > strong{
+    font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 4px;
+}
+
+.left-friends > ul {
+	list-style: none outside none;
+	margin: 0px;
+}
+
+.left-friends > ul > li {
+    display: block;
+    float: left;
+    font-size: 0.8em;
+    line-height: normal;
+	margin-right: 3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 40px;
+}
+
+
+// General Content
+// -------------------------
+
+.content-top > img {
+	margin-bottom: 10px;
+}
+
+
+// Activities Section
+// -------------------------
+
+ul.activity-listings {
+	list-style: none outside none;
+	margin: 0px;
+}
+
+.activity-listings > li {
+	border-top: solid 1px @grayLighter;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.activity-listings > li:last-child {
+	border-bottom: solid 1px @grayLighter;
+}
+
+.activity-listings > li > a {
+	float: left;
+	line-height: auto;
+}
+
+.activity-listings > li > img {
+	float: left;
+	margin-right: 1em;
+	margin-top: 2px;
+}
+
+.activity-listing-content {
+	margin-left: 55px;
+}
+
+.activity-listing-content > .earnings {
+    background-color: @plus3GreenLight;
+    color: @plus3GreenDark;
+    float: right;
+    font-size: 1.1em;
+    padding: 0.4em;
+	.border-radius(5px);
+	text-align: center;
+	width: 170px;
+}
+
+.activity-listing-content > .earnings > .dollars {
+    font-size: 0.85em;
+}
+
+.activity-listing-content > h3 {
+	margin: -2px 0px 3px 0px;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+.activity-listing-content > .measurement {
+    font-size: 1.1em;
+}
+
+.activity-details > .date {
+    font-size: 0.8em;
+}
+
+
+// Site Footer
+// -------------------------
+
+.floating-footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
+
+.floating-footer.collapsed {
+    height: 24px;
+}
+
+.floating-footer.expanded {
+    height: 260px;
+}
+
+.floating-footer.expanded .footer-inner {
+    min-height: 260px;
+}
+
+.floating-footer .footer-inner {
+    background: none repeat scroll 0 0 @grayDark;
+	.border-radius(5px 5px 0px 0px);
+    color: @grayLighter;
+    font-size: 10px;
+    min-height: 24px;
+    opacity: 0.95;
+    padding-top: 3px;
+}
+
+.floating-footer .footer-inner .full-footer > div {
+    padding: 10px 20px 0;
+	border-top: 1px solid @gray;
+}
+
+.floating-footer p {
+    margin: 0 0 9px;
+	font-size: 11px;
+}
+
+.floating-footer h3 {
+    margin: 0px;
+}
+
+.floating-footer a {
+    color: @grayLighter;
+	text-decoration: underline;
+}
+
+.floating-footer a:hover {
+    color: @white;
+	text-decoration: underline;
+}
+
+.floating-footer .footer-inner .copyright {
+    padding-left: 8px;
+}
+
+.floating-footer .copyright, .floating-footer .links {
+    padding-top: 0px;
+}
+
+.floating-footer .copyright, .floating-footer .links a {
+    margin-left: 10px;
+}
+
+.floating-footer .footer-inner .expand {
+    color: @grayLight;
+    font-size: 16px;
+    text-align: center;
+}
+
+.floating-footer .footer-inner .links {
+    padding-right: 8px;
+    text-align: right;
+}
+
+
+// Custom Tags and Labels
+// -------------------------
+
+.privacy-tag {
+	.label;
+	text-transform: uppercase;
+	font-size: 0.79em;
+}
+
+.privacy-tag.public {
+	background-color: @plus3GreenDark;
+}
